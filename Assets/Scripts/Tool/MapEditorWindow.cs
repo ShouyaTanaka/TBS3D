@@ -161,14 +161,6 @@ public class MapEditorWindow : EditorWindow
         {
             case Map.Blocked: return Color.gray;
             case Map.Ground: return Color.green;
-            case Map.PlayerSpawn1: return Color.cyan;
-            case Map.PlayerSpawn2: return Color.cyan;
-            case Map.PlayerSpawn3: return Color.cyan;
-            case Map.PlayerSpawn4: return Color.cyan;
-            case Map.EnemySpawn1: return Color.red;
-            case Map.EnemySpawn2: return Color.red;
-            case Map.EnemySpawn3: return Color.red;
-            case Map.EnemySpawn4: return Color.red;
             default: return Color.white;
         }
     }
